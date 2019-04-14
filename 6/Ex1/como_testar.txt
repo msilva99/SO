@@ -1,0 +1,11 @@
+Para testar:
+
+prog1 --> cria fifo
+prog2 --> lê input para fifo
+prog3 --> lê fifo para output
+
+- Correr prog1 para criar a fifo
+- Abrir dois terminais
+- Correr prog2 no primeiro, e prog3 no segundo
+- O que se escreve no terminal do prog2, aparece de imediato no terminal do prog3
+- Quando um termina (CTRL-C) o outro também
